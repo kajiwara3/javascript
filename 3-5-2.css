@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+div.tooltip{
+  width:230px;
+  position:absolute;
+}
+div.tooltip p{
+  line-height:1.5;
+  margin:0;
+  font-size:small;
+  background:url("images/tooltipBody.gif") top right;
+  padding:10px 5px 0 40px;
+}
+div.tooltip img{
+  vertical-align:top;
+}

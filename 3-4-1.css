@@ -1,0 +1,34 @@
+@CHARSET "UTF-8";
+#container{
+  width:500px;
+  margin:50px auto;
+}
+ul.tab{
+  padding:0;
+}
+ul.tab li{
+  list-style-type:none;
+  width:100px;
+  height:40px;
+  float:left;
+}
+ul.tab li a{
+  outline:none;
+  background:url("./images/tab.jpg");
+  display:block;
+  color:blue;
+  line-height:40px;
+  text-align:center;
+}
+ul.tab li a.selected{
+  background:url("./images/tab_selected.jpg");
+  text-decoration:none;
+  color:#333;
+  cursor:default;
+}
+ul.panel li{
+  list-style-type:none;
+  padding:10px;
+  text-indent:1em;
+  color:#333;
+}

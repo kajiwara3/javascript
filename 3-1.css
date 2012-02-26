@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+table{
+  margin:100px auto;
+}
+.odd{
+  background:#444444;
+}
+th{
+  background:#222222;
+  color:white;
+}
+th,td{
+  padding:5px;
+  font-size:small;
+}
+.even{
+  background:#F2F2F2;
+}
+.hover{
+  background:#82d8ff;
+}
