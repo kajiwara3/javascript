@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+li{
+  display:inline;
+  list-style-type:none;
+}
+img{
+  border:none;
+}
